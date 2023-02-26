@@ -1,0 +1,13 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+}
+.header{
+    background-color:rgba(0, 0, 0, 0.356);
+    font-size: 30px;
+    text-align: center;
+    color:white;
+    height:45px;
+    padding:10px;
+}

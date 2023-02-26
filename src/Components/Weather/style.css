@@ -1,0 +1,124 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: sans-serif;
+}
+
+.main-container{
+    background-image: url("https://cdn.pixabay.com/photo/2023/02/01/16/04/fog-7760708_960_720.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    height:100vh;
+}
+
+.container{
+    width:490px;
+    height:190px;
+    margin:110px auto;
+    border-radius: 20px;
+    background-color: rgba(55, 60, 68, 0.295);   
+}
+
+.label-container{
+    font-size: 23px;
+}
+
+.input-container{
+    padding:40px;
+}
+
+.input-field{
+    width:400px;
+    height:40px;
+    font-size:23px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    text-align:center;
+}
+
+.button-container{
+    padding-left:180px;
+}
+
+.submit-button{
+    width:max-content;
+    height:40px;
+    font-size: 15px;
+    border:none;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    padding: 0px 10px;
+}
+
+.submit-button:hover{
+    background: linear-gradient(45deg,rgb(180, 180, 180),rgb(160, 160, 160));
+    cursor : pointer;
+    color: aliceblue;
+}
+
+.cards{
+    margin:150px auto;
+    width:500px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 10px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.datas1a{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(55, 60, 68, 0.295);
+    border-radius: 30px;
+    color: aliceblue;
+    transform:translateX(-500px);
+    visibility: hidden;
+}
+.datas2a{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(55, 60, 68, 0.295);
+    border-radius: 30px;
+    color: aliceblue;
+    transform:translateX(500px);
+    visibility: hidden;
+}
+
+.datas1{
+    width:500px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(55, 60, 68, 0.295);
+    border-radius: 30px;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+    transform:translateX(0px)
+}
+.datas2{
+    width:500px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: rgba(55, 60, 68, 0.295);
+    border-radius: 30px;
+    color: aliceblue;
+    transition: all 0.5s ease-in-out;
+    transform:translateX(0px)
+}
+
+
+h3{
+    font-family: sans-serif;
+}
